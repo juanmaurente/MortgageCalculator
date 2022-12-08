@@ -32,7 +32,6 @@ public class Main {
 
         currency = NumberFormat.getCurrencyInstance();
 
-        System.out.println("Principal: " + principal + "Interest: "+ interestRate + "Years: " + years);
         System.out.println("\n\nMortgage: " + currency.format(mortgage));
 
     }
